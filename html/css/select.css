@@ -1,0 +1,118 @@
+body,.top,.mui-content{
+	box-sizing: content-box!important;
+	font-size: 0.2rem!important;
+	color:#303030!important;
+	background: #f8f8f8!important;
+}
+a{
+	color:#303030!important;
+}
+.top{
+	background: #ffffff!important;
+	overflow: hidden;
+	border-bottom:1px solid #232323!important;
+}
+.top>a{
+	padding-top:0.14rem!important;
+	color:#303030!important;
+	font-size: 0.2rem!important;
+}
+.top>h1{
+	font-size: 0.2rem!important;
+}
+.list1{
+	background: #ffffff!important;
+	font-size: 0.18rem!important;
+	height: 0.9rem;
+	display: flex;
+	border-bottom:0.01rem solid #919191;
+	
+}
+.list1 li{
+	text-align: center;
+	border-right: 1px solid #dddddd;
+	flex: 1;
+	height: 0.6rem;
+	margin-top:0.15rem;
+}
+.list1 li span{
+	display: block;
+}
+.list1 li:nth-child(4){
+	border-right: none;
+}
+.list1 li .bg{
+	margin: 0 auto;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-bottom: 0.15rem;
+}
+.list1 li:nth-of-type(1) .bg{
+	background-image: url(../images/智能排序icon1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.list1 li:nth-of-type(2) .bg{
+	background-image: url(../images/距离icon1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.list1 li:nth-of-type(3) .bg{
+	background-image: url(../images/好评率icon1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.list1 li:nth-of-type(4) .bg{
+	background-image: url(../images/价格icon1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.list2 li{
+	background: #ffffff!important;
+	height:1rem;
+	margin-top: 0.25rem;
+	border-top:0.01rem solid #919191;
+	border-bottom:0.01rem solid #919191;
+	display: flex;
+}
+.list2 li .left{
+	font-size: 0.18rem;;
+    flex: 9;
+    display: flex;
+}
+.list2 li .right{
+	font-size: 0.18rem;
+	margin-top: 0.08rem;;
+	flex: 3.5;
+}
+.list2 li img{
+	margin: 0.125rem 0.15rem 0 0.15rem;
+	width:0.75rem;
+	height:0.75rem;
+	display: block;
+	flex: 1;
+}
+.list2 li .left_1{
+	margin-top: 0.08rem;
+	flex: 1;
+}
+.list2 span{
+	line-height: 0.3rem;
+	display: block;
+}
+.list2 li .left_1 b{
+	font-size: 0.19rem;
+}
+.list2 .left_1 .thr{
+	font-weight: bold;
+	font-size: 0.22rem;
+	color: #303030!important;
+}
+.right span:nth-child(3){
+	height:0.25rem;
+	width:0.7rem;
+	background: #a0d468;
+	text-align: center;
+	color: #ffffff;
+	line-height: 0.25rem;
+}

@@ -1,0 +1,101 @@
+body,.top,.mui-content{
+	box-sizing: content-box!important;
+	font-size: 0.18rem!important;
+	color:#303030!important;
+	background: #f8f8f8!important;
+}
+a{
+	color:#303030!important;
+}
+.top{
+	background: #ffffff!important;
+	overflow: hidden;
+	border-bottom:0.01rem solid #232323!important;
+}
+.top>a{
+	padding-top:0.14rem!important;
+	color:#303030!important;
+	font-size: 0.2rem!important;
+}
+.top>h1{
+	font-size: 0.2rem!important;
+}
+ul li{
+	display: flex;
+	width:90%;
+	margin:0 auto ;
+	margin-top: 0.35rem;
+	height: 1rem;
+	border: 0.01rem solid #dddddd;
+	border-left:none;
+	background: url(../images/bian.jpg) no-repeat;
+	background-size: contain;
+	background-color: #ffffff;
+}
+ul li span{
+	line-height: 0.3rem;
+	display: block;
+}
+ul li div{
+	height: 75%;
+	margin-top: 5%;
+}
+.left{
+	padding-left: 0.05rem;
+	color: #a0d468;
+	text-align: center;
+	border-right: 0.01rem dashed #dddddd;
+	flex: 2;
+}
+.left span:nth-child(1){
+	line-height: 0.4rem;
+	font-size: 0.22rem;
+}
+.right{
+	position: relative;
+	color: #bbbbbb!important;
+	padding-left: 0.1rem;
+	font-size: 0.16rem;
+	flex: 5;
+}
+.right span{
+	line-height: 0.25rem;
+}
+.right span:nth-child(1){
+	color: #303030!important;
+	font-size: 0.18rem;
+}
+.right img{
+	width: 0.18rem;
+	height: 0.18rem;
+	position: absolute;
+	top:35%;
+	right: 0.1rem;
+	
+}
+li:nth-child(1) .right img:nth-of-type(2){
+	display: none;
+}
+li:nth-child(2) .right img:nth-of-type(1){
+	display: none;
+}
+ul li:nth-child(2){
+	border-bottom: none;
+}
+.infor{
+	height: 1rem;
+	border: 0.01rem solid #dddddd;
+	width:90%;
+	margin:0 auto ;
+	background-color: #ffffff;
+	border-top: none;
+}
+.infor p{
+	padding-top:0.08rem;
+	line-height: 0.25rem;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	border-top: 1px dashed #dddddd;
+	overflow: visible!important;
+}

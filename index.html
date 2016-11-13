@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/common.js" ></script>
+</head>
+<body>
+	<header>
+		<a href="#"><img src="image/个人中心icon.png"></a>
+		<span>北京</span>
+	</header>
+	<!--轮播图-->
+	<div class="mui-slider">
+	  <div class="mui-slider-group mui-slider-loop">
+	    <!--支持循环，需要重复图片节点-->
+	    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="image/banner4.jpg" /></a></div>
+	    <div class="mui-slider-item"><a href="#"><img src="image/banner1.jpg" /></a></div>
+	    <div class="mui-slider-item"><a href="#"><img src="image/banner2.jpg" /></a></div>
+	    <div class="mui-slider-item"><a href="#"><img src="image/banner3.jpg" /></a></div>
+	    <div class="mui-slider-item"><a href="#"><img src="image/banner4.jpg" /></a></div>
+	    <!--支持循环，需要重复图片节点-->
+	    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="image/banner1.jpg" /></a></div>
+  </div>
+</div>
+<div class="main">
+	<p>现在有<span>150</span>名专业师傅可提供服务</p><br>
+	<a href="#">点击查看</a>
+</div>
+<div class="one">
+	<img src="image/立即服务icon.png">
+	<span>立即服务</span>
+</div>
+<div class="one two">
+	<img src="image/预约服务icon.png">
+	<span>预约服务</span>
+</div>
+
+
+<script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	//获得slider插件对象
+		var gallery = mui('.mui-slider');
+		gallery.slider({
+		  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+		});
+
+    </script>
+</body>
+</html>

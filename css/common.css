@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*html{
+	font-size:100px!important;
+}*/
+ul{
+	list-style: none;
+}
+img{
+	display:block;
+	border: none;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff!important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+span{
+	display: inline-block;
+}
+html,body{
+	width: 100%;
+	height:100%;
+}
+body{
+	color: #ffffff!important;
+	line-height: 0!important;
+	font-size:0.22rem!important ;
+}

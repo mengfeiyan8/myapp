@@ -1,0 +1,112 @@
+body,.top,.mui-content{
+	box-sizing: content-box!important;
+	background: #ffffff!important;
+}
+.top{
+	background: #ffffff!important;
+	overflow: hidden;
+	border-bottom:0.01rem solid #232323!important;
+}
+.top>a{
+	color:#222222!important;
+}
+ul a{
+	    font-size: 0.18rem;
+		color: #303030!important;
+}
+ul li{
+	width: 90%;
+	margin:0 auto;
+	border-bottom: 1px solid #dddddd;
+	height:0.7rem;
+	line-height: 0.7rem;
+}
+ul li img{
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;
+	float: left;
+	margin: 0.2rem 0.2rem 0 0;
+}
+ul li span{
+	display: block;
+	float: right;
+}
+ul{
+	background: #ffffff;
+	width: 100%;
+}
+ul li:nth-of-type(2) a{
+	color: red!important;
+	font-size: 0.24rem;
+}
+p{
+	margin-top: 0.2rem!important;
+	margin-bottom: 0!important;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+}
+p a{
+	color: red!important;
+	font-size: 0.2rem!important;
+}
+p span{
+	font-size: 0.22rem;
+}
+.mui-checkbox{
+	font-size: 0.16rem;
+	color: #303030!important;
+}
+.mui-checkbox div{
+	float: left;
+}
+.check1{
+	top:0.06rem!important;
+	left:0.13rem!important;
+	right: 0!important;
+}
+.check2{
+	top:0.06rem!important;
+	left:0.85rem!important;
+	right: 0!important;
+}
+.mui-checkbox div:nth-of-type(1) label{
+	padding-left: 0.48rem!important;
+}
+.mui-checkbox div:nth-of-type(2) label{
+	padding-left: 0.25rem!important;
+}
+.mui-checkbox div:nth-of-type(3) label{
+	padding-left: 0.25rem!important;
+}
+.check3{
+	top:0.06rem!important;
+	left:1.62rem!important;
+	right: 0!important;
+}
+.mui-checkbox div:nth-of-type(4) a{
+	color: #303030!important;
+}
+.mui-checkbox div:nth-of-type(4){
+	margin-left: 0.05rem;
+	margin-top:0.2rem;
+	
+}
+.btn{
+	display: block;
+	font-size: 0.2rem!important;
+	color: #ffffff;
+	padding: 0!important;
+	width: 80%;
+	height: 0.55rem;
+	background: #a0d468;
+	line-height: 0.55rem;
+	position: absolute;
+	bottom: 0.3rem;
+	left:10%;
+	border: none!important;
+	text-align: center;
+	border-radius: 0.05rem;
+	
+}

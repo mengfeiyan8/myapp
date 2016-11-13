@@ -1,0 +1,68 @@
+.list2 li{
+	background: #f8f8f8!important;
+	margin:0;
+	border-bottom:  0.01rem solid #dddddd;
+}
+.list2 li div{
+   font-size: 0.12rem!important;
+}
+.list2 li .right i{
+	font-style: normal;
+	font-size:0.22rem ;
+	color: #a0d468;
+}
+.sinfor{
+	height: 0.6rem;
+	line-height: 0.6rem;
+	color: #cacaca;
+	font-size: 0.18rem;
+	padding-left:0.2rem;
+}
+.serlist a{
+		color: #303030!important;
+}
+.serlist li{
+	width: 90%;
+	margin:0 auto;
+	border-top: 1px solid #dddddd;
+	height:0.55rem;
+	line-height: 0.55rem;
+}
+.serlist li img{
+	width: 0.25rem;
+	height: 0.25rem;
+	display: block;
+	float: left;
+	margin: 0.15rem 0.2rem 0 0;
+}
+.serlist li span{
+	display: block;
+	float: left;
+}
+.serlist{
+	font-size: 0.14rem!important;
+	width: 100%;
+}
+.serlist li:nth-of-type(3){
+	border-bottom:  1px solid #dddddd;
+}
+.serlist li div{
+	float: right;
+	display: inline-block;
+}
+.serlist li div a{
+	color: #bbbbbb!important;
+}
+.send{
+	display: block;
+	position: absolute;
+	width: 90%;
+	height: 0.5rem;
+	background: #a0d468;
+	color: #ffffff!important;
+	line-height: 0.5rem;
+	left:5%;
+	bottom: 0.35rem;
+	text-align: center;
+	border-radius: 0.05rem;
+}
